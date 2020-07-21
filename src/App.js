@@ -6,7 +6,7 @@ import { UserContext } from './context';
 
 const App = (props) => {
   const userContext = useContext(UserContext);
-  const { loading, search, error } = userContext;
+  const { loading, error } = userContext;
   return (
     <div className="App">
       <div className="container">
